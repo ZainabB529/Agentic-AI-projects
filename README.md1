@@ -1,0 +1,60 @@
+# Agentic AI Projects (DeepLearning.AI Course Submission)
+
+This repository contains two agentic AI systems built using Python as part of the Agentic AI learning journey.
+
+---
+
+# 1. StockBrain AI (Financial Agent)
+
+An autonomous AI system that analyzes stock market data and makes trading decisions using machine learning.
+
+## Features
+- Stock data analysis using yfinance
+- Feature engineering (moving averages)
+- Prediction model using Linear Regression
+- BUY / SELL decision system
+- Performance evaluation vs baseline
+
+## Agentic AI Patterns Used
+- Tool Use → financial data API (yfinance)
+- Planning → ML pipeline (data → features → model)
+- Reflection → evaluates prediction accuracy
+- Decision-making loop → trading actions
+
+---
+
+# 2. Maze Solver Agent
+
+An autonomous AI agent that solves a maze using BFS algorithm.
+
+## Features
+- Finds shortest path in a maze
+- Memory-based navigation
+- Grid environment simulation
+- Visual output using Matplotlib
+
+## Agentic AI Patterns Used
+- Planning → BFS search strategy
+- Memory → visited nodes tracking
+- Tool Use → grid environment
+- Autonomy → self-directed navigation
+
+---
+
+# Tech Stack
+- Python
+- NumPy
+- Pandas
+- Scikit-learn
+- Matplotlib
+
+---
+
+# Summary
+These projects demonstrate core agentic AI design patterns:
+- Planning
+- Tool Use
+- Reflection
+- Autonomous decision-making
+
+They are built using raw Python without frameworks.
